@@ -1,0 +1,25 @@
+# Project: Portfolio
+
+## How to: Add project description
+
+- Enter `src` folder and create a new file with the name of the project. For example, `e-plaza.html`
+
+- Enter the `webpack.config.js` file. On line 4, add the name of the file you created in the previous step. For example if the name of the file I created was `new-project.html`. Then:
+
+```javascript
+// webpack.config.js
+
+const pageNames = ["experience", "e-plaza", "new-project"];
+```
+
+- Sync your changes by running `npm run dev` on your terminal.
+
+If you don't know how to open terminal, here are the steps:
+
+```
+// windows
+ctrl + `
+
+// mac
+cmd + j
+```

@@ -15,10 +15,13 @@
       object-fit: cover;
       height: 500px;
       width: 400px;
-      // display: none;
       position: absolute;
       right: 10%;
       top: 30%;
+    }
+
+    .case-study{
+      width: 100%;
     }
   }
 }
@@ -228,5 +231,41 @@
         }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .project-desc-block{
+    width: 100%;
+  }
+}
+
+.project-desc-block{
+  width: 40%;
+  font-size: 14px !important;
+
+  .label{
+      text-transform: uppercase;
+      margin-bottom: -15px;
+      color: #ff2400;
+      font-weight: 800;
+      letter-spacing: 1px;
+  }
+
+  a{
+    font-size: inherit;
+    display: none;
+    text-decoration: underline !important;
+  }
+}
+
+
+.case-study-wrapper{
+  display: flex;
+  gap: 1rem;
+   img{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
   }
 }

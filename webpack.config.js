@@ -1,7 +1,7 @@
 const path = require("path");
 const HTMLWebpackPlugin = require("html-webpack-plugin");
 
-const pageNames = ["experience"];
+const pageNames = ["experience", "e-plaza"];
 
 const newPagesConfig = pageNames.map((page) => {
   return new HTMLWebpackPlugin({
