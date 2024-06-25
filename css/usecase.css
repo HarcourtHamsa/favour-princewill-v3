@@ -1,0 +1,95 @@
+:root {
+    --gray: rgba(189, 189, 189, 0.323);
+    --primary: #F7F7EA;
+    --black: #000;
+}
+
+main .usecase__banner {
+    width: 100%;
+    height: 250px;
+}
+
+@media only screen and (min-width: 500px) {
+    main .usecase__banner {
+        height: 100vh;
+    }
+}
+
+
+main .usecase__banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 500px) {
+    main .usecase__banner img {
+        height: 100%;
+    }
+}
+
+
+main .metadata {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 2rem;
+    /* background-color: red; */
+}
+
+@media only screen and (min-width: 500px) {
+    main .metadata {
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+}
+
+
+
+
+main .metadata .title {
+    font-weight: 700;
+    text-transform: uppercase !important;
+    font-size: small;
+    letter-spacing: 1px;
+    color: var(--black);
+}
+
+.usecase__title {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.back-arrow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.back-arrow img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.usecase__process {
+    width: 100%;
+    margin: auto;
+    height: 200px;
+}
+
+.usecase__process img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 500px) {
+    .usecase__process {
+        height: 550px;
+    }
+
+    .usecase__process img {
+        height: 100%;
+    }
+}
